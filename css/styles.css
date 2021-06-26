@@ -84,6 +84,19 @@ h1 {
     text-align: center;
     padding: 5%;
 }
+.sameSize{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sameSize > div[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    background-color: #b2dcf7;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    border-radius: 20px;
+}
 #testimonials{
     background-color: #ff4c68;
     text-align: center;
